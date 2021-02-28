@@ -1,0 +1,16 @@
+.text::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+
+.inputlabel {
+  position: absolute;
+  font-size: 1rem;
+  top: 0;
+  left: 50%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-60%, -50%);
+  color: #ffffff;
+  padding: 0 0.3rem;
+  margin: 0 0.5rem;
+  pointer-events: none;
+}
